@@ -12,25 +12,32 @@
 
 ## 目录
 
-- [CLI 与一站式工作流](#cli-与一站式工作流)
-- [任务管理、MCP 与批量调度](#任务管理mcp-与批量调度)
-- [SSH、隧道与远程访问](#ssh隧道与远程访问)
-- [无头环境工具链](#无头环境工具链)
-- [Fork 生态](#fork-生态)
-- [维护信号速览](#维护信号速览)
-- [选型建议](#选型建议)
+- [Awesome Inspire](#awesome-inspire)
+  - [收录范围](#收录范围)
+  - [目录](#目录)
+  - [CLI 与一站式工作流](#cli-与一站式工作流)
+  - [任务管理、MCP 与批量调度](#任务管理mcp-与批量调度)
+  - [SSH、隧道与远程访问](#ssh隧道与远程访问)
+  - [无头环境工具链](#无头环境工具链)
+  - [Fork 生态](#fork-生态)
+    - [`Inspire-cli`](#inspire-cli)
+    - [`qzcli_tool`](#qzcli_tool)
+    - [`qz_ssh_starter`](#qz_ssh_starter)
+  - [维护信号速览](#维护信号速览)
+  - [选型建议](#选型建议)
+  - [License](#license)
 
 ## CLI 与一站式工作流
 
 - [EmbodiedForge/Inspire-cli](https://github.com/EmbodiedForge/Inspire-cli)  
-当前公开可见中产品化程度最高的一类启智平台 CLI，目标不是单点脚本，而是把配置发现、资源查询、notebook 管理、job 提交、SSH 隧道、代码同步、镜像管理和 Bridge 操作统一起来。  
+当前公开可见中产品化程度最高的一类启智平台 CLI，目标是把配置发现、资源查询、notebook 管理、job 提交、SSH 隧道、代码同步、镜像管理和 Bridge 操作统一起来。  
 功能：`init --discover`、`job`、`notebook`、`image`、`project`、`resources`、`bridge exec/ssh/scp`、`sync`。  
 亮点：把“平台 API + notebook 隧道 + 本地开发工作流”串成一条完整链路。  
 关系：直接相关，适合作为总入口项目。  
 - [realZillionX/Inspire-cli](https://github.com/realZillionX/Inspire-cli)  
-`Inspire-cli` 的中文化发行分支，公开文档明显更偏实验室落地与首次接入说明。  
-功能：继承上游的一站式 CLI 能力，覆盖 notebook、分布式训练、高性能计算、SSH 隧道、镜像与同步。  
-亮点：更强调中文用户场景、真实入口地址和一次性配置流程。  
+`Inspire-cli` 的中文化发行分支，补充完善的高性能计算和详细的入口 skill。  
+功能：继承上游的一站式 CLI 能力，补充并稳定了 notebook、分布式训练、高性能计算、SSH 隧道、镜像与同步等功能。  
+亮点：补充许多功能，例如真实入口地址和一次性配置流程，更详细的中文文档说明，方便用户快速上手。  
 关系：直接相关，`EmbodiedForge/Inspire-cli` 的 fork。  
 - [JingYiJun/Inspire-cli](https://github.com/JingYiJun/Inspire-cli)  
 一个已经表现出独立功能方向的 fork，重点强化 HPC / Slurm 风格任务、workspace-aware 镜像与更实操的运维文档。  
